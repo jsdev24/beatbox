@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+    user-select: none;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+}
+
+table {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    color: #fff;
+    box-shadow: 0px 0px 5px white;
+}
